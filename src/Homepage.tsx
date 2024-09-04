@@ -12,7 +12,7 @@ type HomePageProps = {
 const HomePage: React.FC<HomePageProps> = React.memo(({ count, onCountChange }) => {
   return (
     <main className='main-container'>
-      <h1>Earn $GT</h1>
+      <h1>Earn $DOVES</h1>
       <div className="button-container">
         <ConnectButton />
       </div>
